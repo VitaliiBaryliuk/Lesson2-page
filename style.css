@@ -18,7 +18,7 @@ footer{
 	font-size: 17px;
 	letter-spacing: 0.3;
 	//box-sizing: content-box;
-	width: 960px;
+	width: 800px;
 }
 .fixed-fields{
 	position: fixed;
@@ -58,7 +58,7 @@ footer{
 	margin: auto;
 	margin-top:200px;
 	color: black;
-	font-size: 48px;
+	font-size: 36px;
 	width: 75%;
 }
 .header-message p{
