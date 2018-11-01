@@ -181,7 +181,7 @@ body{
 	
     .burger-menu-icon{
     	visibility:visible;
-    	float: right;
+		position: absolute;
     	position: relative;
     	top:20px;
     	right: 20px;
@@ -201,14 +201,20 @@ body{
 			text-align: center;
 			border: 2px solid black;
 			width: 100px;
+			background-color: white;
 		}
 	.menu-icon-label{
-			float: right;
+			position: absolute;
+			top: 100px;
+			right: 20px;
 			width: 100px;
 			padding: 10px;
 			cursor: pointer;
 			display: block;
-		}	
+		}
+	.menu-icon-label img{
+		width: 50px;
+	}		
 	#menu-icon:checked ~ li{
 			display: block;
 		}
@@ -218,9 +224,13 @@ body{
 			margin: auto;
 			list-style: none;
 			display: none;
+			font-size: 60px;
+			font-weight: bolder;
+			padding: 40px;
+			background-color: white;
 	}
-	.throwed-menu  a{
-			list-style: none;
-		}	
-
+	.throwed-menu li a{
+		text-decoration: none;
+		color: black;
+	}
 }
