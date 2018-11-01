@@ -4,13 +4,16 @@
 body{
 	color:black;
 	width: 800px;
+	font-family: 'Nunito', sans-serif;
 }
-footer{
+.page-footer{
+	padding: 0 53px 0 35px;
+	margin-top:-20px;
 	font-size: 20px;
 	letter-spacing: 0.3;
 	font-weight: bold;
 }
-section{
+.section-padding{
 	padding: 0 53px 0 35px;
 	margin-top: 120px;
 }
@@ -33,7 +36,7 @@ section{
 }
 .top-menu{ 
 	margin: 10px 40px 10px 40px;
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: bolder;
 }
 .top-menu ul{
@@ -67,10 +70,11 @@ section{
 	margin-top:225px;
 	margin-right: 100px; 
 	color: black;
-	font-size: 36px;
-	letter-spacing: 1.2px;
+	font-size: 30px;
+	letter-spacing: 0.7px;
 	line-height: 72px;
-	width: 77%;
+	width: 75%;
+	font-weight: 900;
 }
 .header-message p{
 	margin:auto;
@@ -84,13 +88,13 @@ section{
 	transform: rotate(90deg);
 }
 .article-item{
-	margin: 50px 0px 50px 0px;
+	margin: 45px -7px 100px 7px;
 }
 .arcticle-item:child{
 	width: 100%;
 }
 .article-bottom{
-	//margin: 0px 40px 0px 40px;
+	margin: 0px 0px -5px 0px;
 }
 .article-item > img{
 	width: 100%;
@@ -106,31 +110,45 @@ section{
 	width: 30px;
 }
 .division-item{
-  padding: 0px 40px 0px 40px;
-  margin: 75px 0px 10px 0px; 
-	background-color: #efefef;
-	height: 75px;
+  padding: 3px 40px 0px 26px;
+  margin: 108px -7px 0px 9px;
+  background-color: #efefef;
+  height: 77px;
 }
 .division-item img{
 	background-size: cover;
 }
 .malevich-box{
-	height: 500px;
 	background-color: black;
 	color: white;
-}
-.malevich-box {
+	margin-top: 20px; 
 	color: white;
-
 }
 .malevich-top{
-	font-size: 48px;
-	width: 150px;
-	height: 400px;
+	font-size: 42px;
+	//width: 150px;
+	height: 395px;
+}
+.malevich-box-1{
+	height: 520px;
+}
+.malevich-box-2{
+	height: 360px;
+	width: 100%;
+	margin-top:50px;
+}
+.malevich-top-1{
+	height: 360px;
+}
+.malevich-top-2{
+	height: 235px;
 }
 .top-footer{
 	margin: auto;
 	text-align: center;
+}
+.bootom-footer{
+	margin-top: -20px;
 }
 .bootom-footer p{
 	display: inline-block;
@@ -149,4 +167,9 @@ section{
 }
 .under-line{
 	text-decoration: underline;
+}
+@media screen and (max-width: 760px){
+    .top-menu{
+    	display: none;
+    }
 }
