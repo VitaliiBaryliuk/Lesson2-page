@@ -168,8 +168,59 @@ body{
 .under-line{
 	text-decoration: underline;
 }
-@media screen and (max-width: 760px){
+.burger-menu{
+	display: none;
+}
+@media screen and (max-width: 1024px){
     .top-menu{
     	display: none;
     }
+    .burger-menu{
+    	display: block;
+    }
+	
+    .burger-menu-icon{
+    	visibility:visible;
+    	float: right;
+    	position: relative;
+    	top:20px;
+    	right: 20px;
+    }
+    .menu-line{	
+	    width: 35px;
+	    height: 5px;
+	    background-color: black;
+	    margin: 6px 0;
+    }
+    .throwed-menu{
+		width: 100%;
+    }
+    #menu-icon{
+			display: none;
+			list-style: none;
+			text-align: center;
+			border: 2px solid black;
+			width: 100px;
+		}
+	.menu-icon-label{
+			float: right;
+			width: 100px;
+			padding: 10px;
+			cursor: pointer;
+			display: block;
+		}	
+	#menu-icon:checked ~ li{
+			display: block;
+		}
+	.throwed-menu  li{
+			padding: 10px;
+			text-align: center;
+			margin: auto;
+			list-style: none;
+			display: none;
+	}
+	.throwed-menu  a{
+			list-style: none;
+		}	
+
 }
