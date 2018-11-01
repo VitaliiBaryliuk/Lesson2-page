@@ -1,56 +1,56 @@
 *{
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 body{
-	color:black;
-	width: 800px;
-	font-family: 'Nunito', sans-serif;
+  color:black;
+  width: 800px;
+  font-family: 'Nunito', sans-serif;
 }
 .page-footer{
-	padding: 0 53px 0 35px;
-	margin-top:-20px;
-	font-size: 20px;
-	letter-spacing: 0.3;
-	font-weight: bold;
+  padding: 0 53px 0 35px;
+  margin-top:-20px;
+  font-size: 20px;
+  letter-spacing: 0.3;
+  font-weight: bold;
 }
 .section-padding{
-	padding: 0 53px 0 35px;
-	margin-top: 120px;
+  padding: 0 53px 0 35px;
+  margin-top: 120px;
 }
 .top-message{
-	background-color: black;
-	color: white;
-	padding:3px 0 3px 0;
-	text-align: center;
-	font-size: 17px;
-	letter-spacing: 0.3;
-	//box-sizing: content-box;
-	width: 800px;
+  background-color: black;
+  color: white;
+  padding:3px 0 3px 0;
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 0.3;
+  //box-sizing: content-box;
+  width: 800px;
 }
 .fixed-fields{
-	position: fixed;
-	top: 0px;
+  position: fixed;
+  top: 0px;
 }
 .top-message a{
-	color: white;
+  color: white;
 }
 .top-menu{ 
-	margin: 10px 40px 10px 40px;
-	font-size: 25px;
-	font-weight: bolder;
+  margin: 10px 40px 10px 40px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 .top-menu ul{
-	position: relative;
-	bottom: 10px;
+  position: relative;
+  bottom: 10px;
 }
 .logo{
-	float: left;
+  float: left;
 }
 .navbar{
-	float: right;
+  float: right;
 }
 .clearfix{
-	overflow: auto;
+  overflow: auto;
 }
 .clearfix::after {
     content: "";
@@ -58,56 +58,56 @@ body{
     display: table;
 }
 .navbar li{
-	float: right;
-	display: inline-block;
-	width: 25%;
-	margin:5px 10px 5px 10px;
-	padding: 5px 5px 5px 5px;
+  float: right;
+  display: inline-block;
+  width: 25%;
+  margin:5px 10px 5px 10px;
+  padding: 5px 5px 5px 5px;
 }
 .header-message{
-	text-align: center;
-	margin: auto;
-	margin-top:225px;
-	margin-right: 100px; 
-	color: black;
-	font-size: 30px;
-	letter-spacing: 0.7px;
-	line-height: 72px;
-	width: 75%;
-	font-weight: 900;
+  text-align: center;
+  margin: auto;
+  margin-top:225px;
+  margin-right: 100px; 
+  color: black;
+  font-size: 30px;
+  letter-spacing: 0.7px;
+  line-height: 72px;
+  width: 75%;
+  font-weight: 900;
 }
 .header-message p{
-	margin:auto;
-	text-align: center;
+  margin:auto;
+  text-align: center;
 }
 .arrow-to-bottom{
-	width: 40px;
-	margin:auto;
+  width: 40px;
+  margin:auto;
 }
 .arrow-to-bottom > img{
-	transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .article-item{
-	margin: 45px -7px 100px 7px;
+  margin: 45px -7px 100px 7px;
 }
 .arcticle-item:child{
-	width: 100%;
+  width: 100%;
 }
 .article-bottom{
-	margin: 0px 0px -5px 0px;
+  margin: 0px 0px -5px 0px;
 }
 .article-item > img{
-	width: 100%;
-	font-size: 25px;
+  width: 100%;
+  font-size: 25px;
 }
 .article-title{
-	float: left;
+  float: left;
 }
 .article-title-link{
-	float: right;
-	position: relative;
-	top: 20px;
-	width: 30px;
+  float: right;
+  position: relative;
+  top: 20px;
+  width: 30px;
 }
 .division-item{
   padding: 3px 40px 0px 26px;
@@ -116,121 +116,121 @@ body{
   height: 77px;
 }
 .division-item img{
-	background-size: cover;
+  background-size: cover;
 }
 .malevich-box{
-	background-color: black;
-	color: white;
-	margin-top: 20px; 
-	color: white;
+  background-color: black;
+  color: white;
+  margin-top: 20px; 
+  color: white;
 }
 .malevich-top{
-	font-size: 42px;
-	//width: 150px;
-	height: 395px;
+  font-size: 42px;
+  //width: 150px;
+  height: 395px;
 }
 .malevich-box-1{
-	height: 520px;
+  height: 520px;
 }
 .malevich-box-2{
-	height: 360px;
-	width: 100%;
-	margin-top:50px;
+  height: 360px;
+  width: 100%;
+  margin-top:50px;
 }
 .malevich-top-1{
-	height: 360px;
+  height: 360px;
 }
 .malevich-top-2{
-	height: 235px;
+  height: 235px;
 }
 .top-footer{
-	margin: auto;
-	text-align: center;
+  margin: auto;
+  text-align: center;
 }
 .bootom-footer{
-	margin-top: -20px;
+  margin-top: -20px;
 }
 .bootom-footer p{
-	display: inline-block;
+  display: inline-block;
 }
 .disp-inline{
-	display: inline-block;
+  display: inline-block;
 }
 .email{
-	float: left;
+  float: left;
 }
 .leng{
-	float: right;
+  float: right;
 }
 .leng li{
-	display: inline;
+  display: inline;
 }
 .under-line{
-	text-decoration: underline;
+  text-decoration: underline;
 }
 .burger-menu{
-	display: none;
+  display: none;
 }
 @media screen and (max-width: 1024px){
     .top-menu{
-    	display: none;
+      display: none;
     }
     .burger-menu{
-    	display: block;
+      display: block;
     }
-	
+  
     .burger-menu-icon{
-    	visibility:visible;
-		position: absolute;
-    	position: relative;
-    	top:20px;
-    	right: 20px;
+      visibility:visible;
+    position: absolute;
+      position: relative;
+      top:20px;
+      right: 20px;
     }
-    .menu-line{	
-	    width: 35px;
-	    height: 5px;
-	    background-color: black;
-	    margin: 6px 0;
+    .menu-line{ 
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      margin: 6px 0;
     }
     .throwed-menu{
-		width: 100%;
+    width: 100%;
     }
     #menu-icon{
-			display: none;
-			list-style: none;
-			text-align: center;
-			border: 2px solid black;
-			width: 100px;
-			background-color: white;
-		}
-	.menu-icon-label{
-			position: absolute;
-			top: 100px;
-			right: 20px;
-			width: 100px;
-			padding: 10px;
-			cursor: pointer;
-			display: block;
-		}
-	.menu-icon-label img{
-		width: 50px;
-	}		
-	#menu-icon:checked ~ li{
-			display: block;
-		}
-	.throwed-menu  li{
-			padding: 10px;
-			text-align: center;
-			margin: auto;
-			list-style: none;
-			display: none;
-			font-size: 60px;
-			font-weight: bolder;
-			padding: 40px;
-			background-color: white;
-	}
-	.throwed-menu li a{
-		text-decoration: none;
-		color: black;
-	}
+      display: none;
+      list-style: none;
+      text-align: center;
+      border: 2px solid black;
+      width: 100px;
+      background-color: white;
+    }
+  .menu-icon-label{
+      position: absolute;
+      top: 100px;
+      right: 20px;
+      width: 100px;
+      padding: 10px;
+      cursor: pointer;
+      display: block;
+    }
+  .menu-icon-label img{
+    width: 50px;
+  }   
+  #menu-icon:checked ~ li{
+      display: block;
+    }
+  .throwed-menu  li{
+      padding: 10px;
+      text-align: center;
+      margin: auto;
+      list-style: none;
+      display: none;
+      font-size: 60px;
+      font-weight: bolder;
+      padding: 40px;
+      background-color: white;
+  }
+  .throwed-menu li a{
+    text-decoration: none;
+    color: black;
+  }
 }
